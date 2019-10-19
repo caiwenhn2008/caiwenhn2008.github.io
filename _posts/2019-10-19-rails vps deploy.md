@@ -20,6 +20,7 @@ tags:
 > - rails 5.1.7
 > - mysql 8
 > - capistrano 3.11.0
+
 > Sample project using this steps to depoy to vultr ubuntu:https://github.com/caiwenhn2008/myapp
 
 
