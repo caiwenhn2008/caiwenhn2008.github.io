@@ -15,7 +15,7 @@ tags:
 
 # open remote access
 
-	i /etc/mysql/mysql.conf.d/mysqld.cnf (ubuntu)
+	vi /etc/mysql/mysql.conf.d/mysqld.cnf (ubuntu)
 	vi /usr/local/etc/my.cnf (Mac)
 	bind-address            = *
 
@@ -25,6 +25,7 @@ tags:
 #### 创建仓库（初始化）
 	GRANT ALL ON testdb.* TO testuser@'xx.xx.xx.xx' IDENTIFIED BY 'testpassword';
 	FLUSH PRIVILEGES;
+	
 	#For ex: let root account to be accesable from remote
 	GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'your root password';
 	
