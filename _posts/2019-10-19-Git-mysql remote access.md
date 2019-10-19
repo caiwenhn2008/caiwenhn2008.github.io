@@ -35,3 +35,4 @@ tags:
 	#mac
 	brew services start mysql
 	or
+	mysql.server start
