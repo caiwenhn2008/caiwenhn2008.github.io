@@ -21,7 +21,8 @@ tags:
 > - mysql 8
 > - capistrano 3.11.0
 
-> Sample project using this steps to depoy to vultr ubuntu:https://github.com/caiwenhn2008/myapp
+> Sample project using this steps to depoy to vultr ubuntu:
+> <https://github.com/caiwenhn2008/myapp/>
 
 
 ## 新增 deploy 用户
