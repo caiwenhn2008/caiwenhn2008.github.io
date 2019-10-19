@@ -27,13 +27,6 @@ tags:
 	FLUSH PRIVILEGES;
 	#For ex: let root account to be accesable from remote
 	GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'your root password';
-
-	
-	新建一个仓库目录
-	git init [project-name]
-	
-	克隆一个远程项目
-	git clone [url]
 	
 #### Restart mysql
 	#ubuntu
