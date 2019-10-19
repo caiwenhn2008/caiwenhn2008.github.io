@@ -16,7 +16,7 @@ tags:
 
 > 使用capistrano部署Rails(nginx+passenger)到Vultr ubuntu
 > - vultr ubuntu 16.06
-> - ruby 2.5.5
+> - ruby 2.5
 > - rails 5.1.7
 > - mysql 8
 > - capistrano 3.11.0
@@ -91,8 +91,8 @@ tags:
 ## capistrano配置
 
 #### 我们在本地端‘Gemfile’中加上：
-	gem 'capistrano-rails', :group =&gt; :development
-	gem 'capistrano-passenger', :group =&gt; :development
+	gem 'capistrano-rails', :group => :development
+	gem 'capistrano-passenger', :group => :development
 
 #### 数据库用 MySQL 的话，记得再加上 gem "mysql2"
 接着输入bundle install
@@ -110,6 +110,7 @@ Enhance Capistrano with awesome collaboration and automation features? 请输入
 
 ####  编辑config/deploy.rb
 请替换以下的application名称、git repo网址和deploy_to路径：
+
 	`ssh-add` # 注意这是键盘左上角的「 `」不是单引号「 '」
 	set :application, "myapp"
 	set :repo_url, "git@github.com:caiwenhn2008/myapp.git"
