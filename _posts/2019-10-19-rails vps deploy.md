@@ -2,16 +2,25 @@
 layout:     post
 title:      使用capistrano部署Rails到vps
 subtitle:   使用capistrano部署Rails(nginx+passenger)到ubuntu
-date:       2017-02-22
+date:       2019-10-19
 author:     BY
 header-img: img/post-bg-debug.png
 catalog: true
 tags:
-    - Rails
+    - rails
+    - capistrano
+    - mysql
+    - ruby
 ---
 
 
-> 使用capistrano部署Rails(nginx+passenger)到Vultr ubuntuser
+> 使用capistrano部署Rails(nginx+passenger)到Vultr ubuntu
+> - vultr ubuntu 16.06
+> - ruby 2.5.5
+> - rails 5.1.7
+> - mysql 8
+> - capistrano 3.11.0
+> Sample project using this steps to depoy to vultr ubuntu:https://github.com/caiwenhn2008/myapp
 
 
 ## 新增 deploy 用户
