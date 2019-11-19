@@ -3,7 +3,7 @@ layout:     post
 title:      使用capistrano部署Rails到vps
 subtitle:   使用capistrano部署Rails(nginx+passenger)到ubuntu
 date:       2019-10-19
-author:     BY
+author:     Wilson
 header-img: img/post-bg-debug.png
 catalog: true
 tags:

@@ -3,8 +3,7 @@ layout:     post
 title:      Mysql远程访问
 subtitle:   mysql配置远程访问
 date:       2019-10-19
-author:     BY
-header-img: img/post-bg-ios9-web.jpg
+author:     Wilson
 catalog: true
 tags:
     - Mysql
